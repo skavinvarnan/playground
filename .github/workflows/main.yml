@@ -26,4 +26,5 @@ jobs:
       run: |
         DOCKER_TAG=$(echo ${GITHUB_REF} | sed -e 's/refs\/tags\/v//')
         echo ${DOCKER_TAG} Add other actions to build {tag},
+        echo ${DOCKER_TAG} is awesome Add other actions to build {tag},
         echo test, and deploy your project.
